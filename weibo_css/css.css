@@ -1,0 +1,101 @@
+body{
+	background: #000;
+}
+.head{
+	height: 100;
+	width: 100%;
+	margin-bottom: 20;
+}
+.head .title{
+	height: 100;
+	position: relative;
+}
+.title{
+	margin: 0px auto;
+	width: 1000;
+	height: 100;
+}
+.container{
+	margin: 0px auto;
+	height: 1600;
+	margin-left: 200;
+	margin-bottom: 20;
+}
+.position{
+	border:3px solid steelblue;
+	float: left;
+}
+.map{
+	width: 500;
+	height: 500;
+}
+.rank{
+	width: 250;
+	height: 280;
+	margin-left: 13;
+}
+.tip{
+	width: 100%;
+	height: 30;
+	border: 1px solid steelblue;
+	margin: 0 auto;
+}
+.tip span{
+	color: steelblue;
+	font-weight:bold;
+	font-size: 25px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.pie{
+	width: 210;
+	height: 280;
+	margin-left: 13;
+}
+.other{
+	width: 478;
+	height: 202;
+	margin-top: 13;
+	margin-left: 13;
+	over-flow:auto;
+}
+.axis path,.axis line{
+	fill:none;
+	stroke:steelblue;
+}
+.axis text{
+	font:20;
+	fill:steelblue;
+}
+.axis .grid-line{
+    stroke: steelblue;
+    stroke-width:2;
+    shape-rendering: crispEdges;
+    stroke-opacity: .2;
+}
+.toptable{
+	color: #d9d9d9;
+	font-size: 15;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+.table_title{
+	height: 35;
+}
+.tr0{
+	background: #0f1424;
+}
+.tr1{
+	background: #092948;
+}
+.tr0,.tr1{
+	height: 27;
+}
+.create{
+	width: 1000;
+	height: 500;
+	margin-top: 20;
+}
